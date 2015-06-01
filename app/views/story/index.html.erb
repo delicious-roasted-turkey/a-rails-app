@@ -1,0 +1,6 @@
+<h1>Story#view</h1>
+<p>All stories:</p>
+<table><tbody>
+<% @stories.each do |s| %>
+  <tr><td><%=s.name%></td></tr>
+<% end %>
